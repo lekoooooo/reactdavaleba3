@@ -1,6 +1,14 @@
 function IncrementButton({ setCount }) {
   return (
-    <button onClick={() => setCount((prev) => prev + 1)}>increment by 1</button>
+    <div className="returnContainer">
+      {" "}
+      <button
+        className="IncrementBtn"
+        onClick={() => setCount((prev) => prev + 1)}
+      >
+        increment by 1
+      </button>
+    </div>
   );
 }
 

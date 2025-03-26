@@ -5,7 +5,7 @@ import DecrementButton from "./DecreaseButton";
 function Hero() {
   const [count, setCount] = useState(0);
   return (
-    <div>
+    <div className="returnContainer">
       <h2>Hero Counter : {count}</h2>
       <div className="buttonContainer">
         <IncrementButton setCount={setCount} />
