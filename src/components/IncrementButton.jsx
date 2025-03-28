@@ -6,7 +6,7 @@ function IncrementButton({ setCount }) {
         className="IncrementBtn"
         onClick={() => setCount((prev) => prev + 1)}
       >
-        increment by 1
+        Increment by 1
       </button>
     </div>
   );
